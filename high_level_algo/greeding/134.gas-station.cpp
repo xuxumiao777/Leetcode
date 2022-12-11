@@ -3,6 +3,7 @@ public:
     int canCompleteCircuit(vector<int>& gas, vector<int>& cost) {
         int curSum = 0;
         int min = INT_MAX; // 从起点出发，油箱里的油量最小值
+        111
         for (int i = 0; i < gas.size(); i++) {
             int rest = gas[i] - cost[i];
             curSum += rest;
