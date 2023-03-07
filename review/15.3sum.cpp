@@ -6,9 +6,7 @@ public:
         int right=0;
         vector<vector<int>> res;
         vector<int> temp;
-        unordered_map<int,int> count;
         for(int i=0;i<nums.size();i++){
-            count[nums[i]]++;
             temp.clear();
             if(nums[i]>0){
                 break;
