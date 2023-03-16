@@ -1,6 +1,6 @@
 class Solution {
 public:
-    static bool comp(vector<int> A,vector<int> B){
+    static bool comp(vector<int>& A,vector<int>& B){
         return A[0]<B[0];
     }
     vector<vector<int>> merge(vector<vector<int>>& intervals) {
